@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+h1{
+  color: pink;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 300%;
+}
+body{
+  box-sizing: border-box;
+  background: url("./1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+.container{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#name1,#name2,.submit,#result{
+  width: 60%;
+  font-family: sans-serif;
+  font-weight: 700;
+  opacity: 0.7;
+  height: 50px;
+  font-size: 40px;
+  text-align: justify ;
+  text-align: center;
+  border-radius: 20px;
+  border: 0px;
+  outline: none;
+}
+.plus{
+  font-size: 100px;
+  color: white    ;
+}
+.submit{
+  margin-top: 30px;
+}
+.submit:hover{
+  background-color: green;
+  color: white;
+}
+#result{
+  margin-top: 20px;
+  font-size: 100px;
+  color: white;
+}
