@@ -67,7 +67,7 @@ class App extends React.Component {
       document.getElementById('result').innerHTML='100%';
     }
     else {
-      var x = Math.floor((Math.random() * 10) + 1);
+      var x = Math.floor((Math.random() * 100) + 1);
       document.getElementById('result').innerHTML=x+"%";
     }
   }
